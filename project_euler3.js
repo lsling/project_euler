@@ -2,8 +2,8 @@
 // What is the largest prime factor of the number 600851475143 ?
 
 function largestPrime(n) {
-  for(var i = 2; i <= n; i++) {
-    if(n % i == 0){
+  for (var i = 2; i <= n; i++) {
+    if (n % i == 0){
       n /= i;
       i--;
     }

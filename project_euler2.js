@@ -8,8 +8,8 @@ function evenFibonacciSum(n) {
   var sum = 0;
   var temp = 0;
 
-  while(second < n) {
-    if(second % 2 == 0){
+  while (second < n) {
+    if (second % 2 == 0){
       sum += second;
     }
     temp = second;
